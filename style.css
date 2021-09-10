@@ -1,0 +1,32 @@
+.grid{
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: grey;
+}
+
+.grid div{
+    height: 40px;
+    width: 40px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    color: rgba(0, 0, 0, 0)
+}
+
+.bomb{
+    background-color: orange
+}
+
+.green{
+    background-color: green;
+}
+
+.container{
+    display: inline-block;
+    text-align: center
+}
+
+#result{
+    font-size: 2rem
+}
