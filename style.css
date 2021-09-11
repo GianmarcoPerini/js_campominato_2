@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box
+}
 .grid{
     width: 400px;
     height: 400px;
@@ -6,10 +9,17 @@
     background-color: grey;
 }
 
+.cornice{
+    width: 400px;
+    height: 50px;
+    background-color: grey;
+    display: flex;
+    border: 1px solid black
+}
+
 .grid div{
     height: 40px;
     width: 40px;
-    box-sizing: border-box;
     border: 1px solid black;
     color: rgba(0, 0, 0, 0)
 }
@@ -26,6 +36,44 @@
     display: inline-block;
     text-align: center
 }
+
+#c1{
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    color: whitesmoke;
+}
+#point{
+    height: 100%;
+    aspect-ratio: 1/1;
+    background-color: red
+}
+
+.c2{
+    flex-grow: 2;
+}
+
+.c3{
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    color: transparent
+
+}
+
+#face{
+    height: 100%;
+    aspect-ratio: 1/1;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
 #result{
     font-size: 2rem
